@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+header{
+    background-color: rgba(101, 101, 230, 0.796);
+    border-bottom-left-radius: 80px;
+    height: 120px;
+}
+
+header .head{
+    margin: 0 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    position: relative;
+}
+
+.search-bar{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.sb-item input::placeholder{
+    font-size:1rem;
+}
+
+.sb-item input{
+    border: 0px;
+    height: 40px;
+    margin-left: 12px;
+    width: 70%;
+    outline: none;
+}
+
+.sb-item{
+    position: relative;
+    padding: 0 2rem;
+    border-right: 1px solid grey;
+    width: 30%;
+}
+
+.sb-item i{
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    padding: 0 1rem;
+    color: rgba(101, 101, 230, 1);
+}
+
+.sb-check{
+    color: #000;
+    font-size: 1rem;
+    padding: 0 2rem;
+    width: 30%;
+    text-align: center;
+}
+
+
+.search-bar button{
+    background-color: rgba(101, 101, 230, 1);
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.wrap{
+    margin: 6rem 10rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 2rem;
+}
+
+.grid-item{
+    background-color: #fff;
+    text-align: left;
+    padding: 30px;
+    min-height: 180px;
+    color: #a79a9a;
+    position: relative;
+    border-radius: 10px;
+}
+
+.grid-item img{
+    position: absolute;
+    left: 35px;
+    top: -20px;
+}
+
+.time-posted{
+    color: #a79a9a;
+    margin-right: 10px;
+}
+
+.job-type{
+    color: #a79a9a;
+    margin-left: 10px;
+}
+
+.job-title{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.sub-text{
+    color: #a79a9a;
+}
+
+.job-location{
+    margin-top: 50px;
+    color: rgba(101, 101, 230, 1);
+}
+
+.wrap button{
+    background-color: rgba(101, 101, 230, 1);
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin-top: 30px;
+}
